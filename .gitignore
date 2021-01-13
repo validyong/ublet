@@ -1,0 +1,9 @@
+# build
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+build/
+out/
