@@ -1,59 +1,75 @@
 package ublet.bean;
 
 public class ViewOuterBookGenre {
-    private Integer isbn;
-    private String bookName;
-    private String company;
-    private Integer price;
-    private Integer genreCode;
-    private String genreName;
+	private Integer isbn;
+	private String bookName;
+	private String company;
+	private Integer price;
+	private Integer genreCode;
+	private String genreName;
 
-    public Integer getIsbn() {
-        return isbn;
-    }
+	public ViewOuterBookGenre(
+			Integer isbn,
+			String bookName,
+			String company,
+			Integer price,
+			Integer genreCode,
+			String genreName) {
 
-    public void setIsbn(Integer isbn) {
-        this.isbn = isbn;
-    }
+		this.isbn = isbn;
+		this.bookName = bookName;
+		this.company = company;
+		this.price = price;
+		this.genreCode = genreCode;
+		this.genreName = genreName;
+	}
 
-    public String getBookName() {
-        return bookName;
-    }
+	public Integer getIsbn() {
+		return isbn;
+	}
 
-    public void setBookName(String bookName) {
-        this.bookName = bookName;
-    }
+	public void setIsbn(Integer isbn) {
+		this.isbn = isbn;
+	}
 
-    public String getCompany() {
-        return company;
-    }
+	public String getBookName() {
+		return bookName;
+	}
 
-    public void setCompany(String company) {
-        this.company = company;
-    }
+	public void setBookName(String bookName) {
+		this.bookName = bookName;
+	}
 
-    public Integer getPrice() {
-        return price;
-    }
+	public String getCompany() {
+		return company;
+	}
 
-    public void setPrice(Integer price) {
-        this.price = price;
-    }
+	public void setCompany(String company) {
+		this.company = company;
+	}
 
-    public Integer getGenreCode() {
-        return genreCode;
-    }
+	public Integer getPrice() {
+		return price;
+	}
 
-    public void setGenreCode(Integer genreCode) {
-        this.genreCode = genreCode;
-    }
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
 
-    public String getGenreName() {
-        return genreName;
-    }
+	public Integer getGenreCode() {
+		return genreCode;
+	}
 
-    public void setGenreName(String genreName) {
-        this.genreName = genreName;
-    }
+	public void setGenreCode(Integer genreCode) {
+		this.genreCode = genreCode;
+	}
+
+	public String getGenreName() {
+		return genreName;
+	}
+
+	public void setGenreName(String genreName) {
+		this.genreName = genreName;
+	}
 
 }

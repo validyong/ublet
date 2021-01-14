@@ -10,7 +10,7 @@ public class DBManager {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             Connection con = DriverManager.getConnection(
-                "jdbc:oracle:thin:@localhost:1521:XE", "pizza_manager",
+                "jdbc:oracle:thin:@localhost:1521:XE", "sjo03",
                 "system123");
             return con;
         } catch (Exception e) {

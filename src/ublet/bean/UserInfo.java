@@ -4,8 +4,17 @@ public class UserInfo {
     private String userId;
     private String password;
     private String mailAddress;
+    public boolean valid;
 
-    public String getUserId() {
+    public boolean isValid() {
+		return valid;
+	}
+
+	public void setValid(boolean valid) {
+		this.valid = valid;
+	}
+
+	public String getUserId() {
         return userId;
     }
 

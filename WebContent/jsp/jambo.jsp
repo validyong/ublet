@@ -8,9 +8,9 @@
 </head>
 <body>
 
-	<form action="LoginServlet">
-		id or mail address
-		<input type="text" name="idOrMailAddress"><br>
+	<form action="loginServlet">
+		id
+		<input type="text" name="userId"><br>
 
 		password
 		<input type="text" name="password"><br>
